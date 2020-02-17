@@ -1,4 +1,4 @@
-console.log("state is:", state)
+
 import state from "./state";
 
 import { layout } from "../init";
@@ -6,5 +6,5 @@ import { layout } from "../init";
 export default function() {
 	layout.update();
 
-	console.log("Example setting:", state.example_setting);
+	console.log("example input setting:", state.input);
 }
