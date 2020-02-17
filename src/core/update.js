@@ -1,3 +1,4 @@
+console.log("state is:", state)
 import state from "./state";
 
 import { layout } from "../init";
