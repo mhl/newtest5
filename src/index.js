@@ -6,13 +6,11 @@ export { default as data } from "./core/data";
 // If your template includes data tables, use this variable to access the data.
 // Each of the 'datasets' in data.json file will be available as properties of the data.
 
-export var state = {
- input: "text here", 
-}
+export { default as state } from "./core/state";
 // The current state of template. You can make some or all of the properties
 // of the state object available to the user as settings in template.yml
 
- export { default as draw } from "./core/draw";
+export { default as draw } from "./core/draw";
 // The draw function is called when the template first loads
 
 export { default as update } from "./core/update";
